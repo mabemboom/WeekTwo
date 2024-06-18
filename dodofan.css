@@ -1,3 +1,75 @@
+<<<<<<< HEAD
+
+body {
+    margin: 2rem 5rem;
+    background-color: tan;
+}
+h1 {
+    color: rgb(11, 124, 124);
+    text-align: center;
+}
+/* added a id to cneter the header on each page along with the color */
+#pageheader {
+    Color: seagreen;
+    text-align: center;
+}
+/* added a table=position to align the table to a more exact location  */
+.table-position {
+    position: relative;
+    left:10%
+}
+table {
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid;
+    align-items: center;
+}
+
+td {
+    text-align: center;
+}
+/* added a class for the blog to change color and size */
+.blog {
+    font-size: xx-large;
+    color: rgb(90, 8, 90)
+}
+
+/*  The following are called Anchor Pseudo class these are being used for my links, visted, 
+and hover */
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+
+/* id styling .links is to center them on the page and round the border .link-space is to align the spacing and no text decoration (underlining) .img-rnd is to round the edges of all my pictures */
+
+.links {
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 2px;
+}
+
+.link-space {
+    margin-inline: 1em;
+    text-decoration: none;
+}
+
+.img-rnd {
+    border-radius: 30px;
+}
+=======
 
 body {
     margin: 2rem 5rem;
